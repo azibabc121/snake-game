@@ -138,37 +138,37 @@ function main(ctime) {
         board.appendChild(foodElement)
 
 
-//     }
+    }
 
-//     window.requestAnimationFrame(main);
+    window.requestAnimationFrame(main);
 
-//     window.addEventListener('keydown', e => {
+    window.addEventListener('keydown', e => {
 
-//         movesound.play()
-//         console.log(e.key)
-//         switch (e.key) {
-//             case "ArrowUp":
+        movesound.play()
+        console.log(e.key)
+        switch (e.key) {
+            case "ArrowUp":
 
-//                 direction.y = -1;
-//                 direction.x = 0;
-//                 break;
-//             case "ArrowDown":
-//                 direction.y = 1;
-//                 direction.x = 0;
-//                 break;
+                direction.y = -1;
+                direction.x = 0;
+                break;
+            case "ArrowDown":
+                direction.y = 1;
+                direction.x = 0;
+                break;
 
-//             case "ArrowLeft":
-//                 direction.y = 0;
-//                 direction.x = -1;
-//                 break;
+            case "ArrowLeft":
+                direction.y = 0;
+                direction.x = -1;
+                break;
 
-//             case "ArrowRight":
-//                 direction.y = 0;
-//                 direction.x = 1;
-//                 break;
+            case "ArrowRight":
+                direction.y = 0;
+                direction.x = 1;
+                break;
 
 
 
-//         }
+        }
 
-//     })
+    })
